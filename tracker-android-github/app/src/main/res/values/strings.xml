@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Tracker Professional</string>
+    <string name="app_name">tracker</string>
     <string name="notification_channel_name">تنبيهات Tracker</string>
 </resources>
