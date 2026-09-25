@@ -22,9 +22,7 @@ jobs:
 
       - name: Build APK
         working-directory: tracker-android-github
-        run: |
-          chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+        run: gradle assembleDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
